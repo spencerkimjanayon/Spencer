@@ -1,0 +1,103 @@
+body{
+    margin-top:20px;
+    background:#eee;
+}
+.avatar.avatar-xl {
+    width: 5rem;
+    height: 5rem;
+}
+.avatar {
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    border-radius: 50%;
+    display: inline-block;
+    background: #ced4da no-repeat center/cover;
+    position: relative;
+    text-align: center;
+    color: #868e96;
+    font-weight: 600;
+    vertical-align: bottom;
+}
+.card {
+    background-color: #fff;
+    border: 0 solid #eee;
+    border-radius: 0;
+}
+.card {
+    margin-bottom: 30px;
+    -webkit-box-shadow: 2px 2px 2px rgba(0,0,0,0.1), -1px 0 2px rgba(0,0,0,0.05);
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.1), -1px 0 2px rgba(0,0,0,0.05);
+}
+.card-body {
+    padding: 1.25rem;
+}
+.tile-link {
+    position: absolute;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 30;
+}
+
+.social-links li a{
+    background: #EFF0F4;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 50%;
+        -webkit-box-radius: 50%;
+    color: #7A7676;
+}
+
+.round_img {
+    border-radius: 50%;
+}
+
+.fa-facebook, .fa-facebook-square {
+    color: #3b5998;
+}
+
+.fa-linkedin, .fa-linkedin-square { 
+    color: #007bb6;
+}
+
+.fa-github, .fa-github-square { 
+    color: #171515;
+}
+
+.fa-twitter, .fa-twitter-square { 
+    color: #00aced
+}
+
+.fa-youtube, .fa-youtube-square, .fa-youtube-square { 
+    color: #bb0000;
+}
+
+.fa-instagram { 
+    color: #517fa4;
+}
+
+.fa-envelope {
+    color:#000000;
+}
+
+.fa-globe {
+    color:#000000;
+}
+
+.kshadow {
+box-shadow: -2px 4px 8px 1px rgba(0,0,0,0.49);
+-webkit-box-shadow: -2px 4px 8px 1px rgba(0,0,0,0.49);
+-moz-box-shadow: -2px 4px 8px 1px rgba(0,0,0,0.49);
+border-radius: 3%;
+}
+
+.b_bg {
+background-color: #101010;
+}
